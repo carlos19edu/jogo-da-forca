@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="div-bk" style="display: none">
+        <div class="div-mensagem">
+            <div class="text-center">
+
+                <h2 id="resultado"></h2>
+                <h3 id="palavra"></h3>
+            </div>
+            <div class="text-center">
+                <button id="play" class="btn-circle">
+                    <img src="img/play.png"  />
+                </button>
+                <h3>Iniciar nova rodada</h3>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="topnav" id="myTopnav">
+            <a href="http://carlos-jogo-da-forca.bitballoon.com/" class="active">Jogo da Forca</a>
+            <a href="http://carlos-calculadora.bitballoon.com/" >Calculadora</a>
+            <a href="http://carlos-jogo-da-velha.bitballoon.com/">Jogo da Velha</a>
+            <a href="http://carlos-calculadora.bitballoon.com/regras.html">Regras</a>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                    <img src="imenu.png" class="imenu" />
+                </a>
+    </div>
+    <div class="row">
+
+        <div id="letras-erradas">
+
+        </div>
+    </div>
+
+    <div class="corpo">
+        <div class="row">
+            <div id="forca">
+                <img src="img/forca.png" width="200px" height="200px" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="jogo">
+            </div>
+        </div>
+        <div class="row">
+
+            <div id="teclado"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
